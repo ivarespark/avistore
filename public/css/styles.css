@@ -59,9 +59,10 @@
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+  --bs-body-line-height: 1.5; 
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-gradient1: linear-gradient(180deg, #20c997, #0dcaf0);
 }
 
 *,
@@ -7887,6 +7888,14 @@ textarea.form-control-lg {
 
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
+}
+
+.bg-navbar {
+  background-color: #20c997 !important;
+}
+
+.bg-gradient1 {
+  background-image: var(--bs-gradient1) !important;
 }
 
 .user-select-all {
